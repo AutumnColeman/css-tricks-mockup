@@ -59,8 +59,7 @@ li {
   font-family: inherit;
 }
 .left {
-  top: 50%;
-  left: 40%;
+  float: left;
   width: 65%;
   background-color: #FFFFFF;
   padding-top: 4%;
@@ -71,9 +70,14 @@ li {
   border-radius: 14px;
 }
 .right {
+  float: right;
   width: 24%;
   background-color: hotpink;
   float: right;
   border-radius: 14px;
-  clear:left;
+  margin-top: 116px;
+  margin-right: 50px;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
