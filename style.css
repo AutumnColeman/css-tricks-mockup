@@ -1,44 +1,59 @@
+
+* {box-sizing: border-box;}
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.45;
 }
 .logo{
-  padding-top: 5%;
-  padding-left:5%;
+  position: absolute;
+  margin-top: 13px;
 }
+
 .header {
   width: 100%;
   background-color: #222222;
+  height: 85px;
+  overflow: hidden;
 }
+
 .avatar {
+  margin-top: -5%;
   float: right;
-  padding-top: 1%;
-  padding-right: 1%;
 }
+
 .nav-bar {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.45;
   color: #FFFFFF;
-  text-align: center;
-  display: inline-block;
-  padding: 0% 15%;
+  padding: 0% 21%;
 }
+
 a {
  text-decoration: none;
  color: #FFFFFF;
 }
+
 ul {
   list-style-type: none;
 }
+
 li {
   padding: 8px;
   font-weight: 400;
   display: inline-block;
 }
+
 .searchbox {
-  border-radius: 20px;
-  width: 10%;
-  font-size: 160%;
-  display: inline-block;
+  border-radius: 50px;
+  width: 21%;
+  font-size: 100%;
   border: 1px solid black;
+  float: right;
+  margin: -58px 71px;
+  padding: 6px 37px 5px 12px;
+  font-family: inherit;
 }
