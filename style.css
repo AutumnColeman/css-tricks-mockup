@@ -6,6 +6,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 1.45;
+  background-color: #EEEBE8;
 }
 .logo{
   position: absolute;
@@ -56,4 +57,23 @@ li {
   margin: -58px 71px;
   padding: 6px 37px 5px 12px;
   font-family: inherit;
+}
+.left {
+  top: 50%;
+  left: 40%;
+  width: 65%;
+  background-color: #FFFFFF;
+  padding-top: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 116px;
+  margin-left: 50px;
+  border-radius: 14px;
+}
+.right {
+  width: 24%;
+  background-color: hotpink;
+  float: right;
+  border-radius: 14px;
+  clear:left;
 }
