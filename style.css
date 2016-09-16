@@ -3,11 +3,26 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.45;
-  background-color: #EEEBE8;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeebe8+21,eeebe8+21,eeebe8+21,eeebe8+21,eeebe8+26,eeebe8+26,eeebe8+26,ff7400+99 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeebe8+21,eeebe8+21,eeebe8+21,eeebe8+21,eeebe8+26,eeebe8+26,eeebe8+26,ff7400+99&1+51,0.83+65 */
+  background: -moz-linear-gradient(top,  rgba(238,235,232,1) 21%, rgba(238,235,232,1) 26%, rgba(244,194,153,1) 51%, rgba(247,171,108,0.83) 65%, rgba(255,116,0,0.83) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(238,235,232,1) 21%,rgba(238,235,232,1) 26%,rgba(244,194,153,1) 51%,rgba(247,171,108,0.83) 65%,rgba(255,116,0,0.83) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(238,235,232,1) 21%,rgba(238,235,232,1) 26%,rgba(244,194,153,1) 51%,rgba(247,171,108,0.83) 65%,rgba(255,116,0,0.83) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeebe8', endColorstr='#d4ff7400',GradientType=0 ); /* IE6-9 */
 }
+img {
+  max-width: 100%;
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
 .logo{
   position: absolute;
   margin-top: 13px;
@@ -60,24 +75,47 @@ li {
 }
 .left {
   float: left;
-  width: 65%;
+  width: 57%;
   background-color: #FFFFFF;
   padding-top: 4%;
   padding-left: 4%;
   padding-right: 4%;
   margin-top: 116px;
-  margin-left: 50px;
+  margin-left: 37px;
   border-radius: 14px;
 }
 .right {
   float: right;
-  width: 24%;
-  background-color: hotpink;
+  width: 27%;
+  background-color: #FFFFFF;
   float: right;
   border-radius: 14px;
-  margin-top: 116px;
-  margin-right: 50px;
-  padding-top: 4%;
-  padding-left: 4%;
-  padding-right: 4%;
+  margin-top: 9%;
+  margin-right: 6%;
+  padding-top: 2%;
+  margin-bottom: -7%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.date {
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  display: block;
+  color: #777;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  line-height: 1.1;
+}
+.left-content {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 0 0 1rem 0;
 }
